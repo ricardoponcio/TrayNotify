@@ -8,6 +8,10 @@ Além disso o TrayNotify leva este nome pois roda em segundo plano com um ícone
 # Instalação
 O TrayNotify não exije nenhuma instalação no sistema operacional, mas é recomendado um passo a passo como mostrado a seguir
 
+# Requisitos
+É um requisito a instalação do Java na máquina dos usuários.
+Testes foram feitos no Java versão `1.8_261` disponível neste [link](https://www.poncio.xyz/Downloads/jdk-8u261-windows-x64.exe).
+
 ---
 # 1. Download
 Baixe o arquivo através do [link](https://www.poncio.xyz/Downloads/TrayNotify.java).
