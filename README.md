@@ -14,7 +14,7 @@ Testes foram feitos no Java versão `1.8_261` disponível neste [link](http://ww
 
 ---
 # 1. Download
-Baixe o arquivo através do [link](http://www.poncio.xyz/Downloads/TrayNotify.java).
+Baixe o arquivo através do [link](http://www.poncio.xyz/Downloads/TrayNotify.jar).
 # 2. Primeira execução/Configuração
 É recomendado que crie uma pasta em seus Documentos chamado `TrayNotify/`e cole o arquivo `.java` dentro desta.
 Para rodar a primeira vez seu chat, primeiro verifique se o arquivo está para rodar com o programa `Java(TM) Platform SE binary` - para realizar esta verificação clique com o botão direito do mouse no arquivo e escolha a opção 'Propriedades', o programa que irá executar está marcado como `Abre com:`. Caso contrário, altere para este tipo, pois isto garante a execução correta do aplicativo.
