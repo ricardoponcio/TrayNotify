@@ -1,5 +1,5 @@
-[tela1]: https://www.poncio.xyz/Downloads/img1.png "Tela APP"
-[tela2]: https://www.poncio.xyz/Downloads/img2.png "Tray Icon"
+[tela1]: http://www.poncio.xyz/Downloads/img1.png "Tela APP"
+[tela2]: http://www.poncio.xyz/Downloads/img2.png "Tray Icon"
 
 # TryNotify
 TrayNotify é um projeto alpha para um chat simples entre clientes Windows, baseado na arquitetura MQTT para transferência do chat sem registro de histórico. É possível configurar um Username e um Tópico default para se iniciar toda vez.
@@ -10,11 +10,11 @@ O TrayNotify não exije nenhuma instalação no sistema operacional, mas é reco
 
 # Requisitos
 É um requisito a instalação do Java na máquina dos usuários.
-Testes foram feitos no Java versão `1.8_261` disponível neste [link](https://www.poncio.xyz/Downloads/jdk-8u261-windows-x64.exe).
+Testes foram feitos no Java versão `1.8_261` disponível neste [link](http://www.poncio.xyz/Downloads/jdk-8u261-windows-x64.exe).
 
 ---
 # 1. Download
-Baixe o arquivo através do [link](https://www.poncio.xyz/Downloads/TrayNotify.java).
+Baixe o arquivo através do [link](http://www.poncio.xyz/Downloads/TrayNotify.java).
 # 2. Primeira execução/Configuração
 É recomendado que crie uma pasta em seus Documentos chamado `TrayNotify/`e cole o arquivo `.java` dentro desta.
 Para rodar a primeira vez seu chat, primeiro verifique se o arquivo está para rodar com o programa `Java(TM) Platform SE binary` - para realizar esta verificação clique com o botão direito do mouse no arquivo e escolha a opção 'Propriedades', o programa que irá executar está marcado como `Abre com:`. Caso contrário, altere para este tipo, pois isto garante a execução correta do aplicativo.
