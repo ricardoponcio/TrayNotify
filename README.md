@@ -42,7 +42,9 @@ Ignore as linhas começando com o caractere "#", pois estas são comentários. A
 # 4. Utilizando o App
 Após configurar o arquivo, salve o mesmo e abra novamente com dois cliques o arquivo .java.
 Irá abrir uma tela como esta:
+
 ![alt text][tela1]
+
 Os campos são explicados a seguir:
 1. Usuário - Nome de usuário que irá aparecer para você e outros usuários ao enviar uma mensagem, para alterar, mude o texto na caixa de texto e clique em "Alterar Usuário"
 2. Tópico - Tópcio para logar no chat, para alterar, mude o texto na caixa de texto e clique em "Alterar Tópico"
@@ -53,7 +55,9 @@ Os campos são explicados a seguir:
 ¹ Mensagens com usuário em Ciano, são suas mensagens, mensagens com usuário em Azul são mensagem de outros usuários, e mensagens em vermelho são informações do sistema.
 # 5. Icone na Bandeja
 Além da tela acima comentada, existe um ícone que ficará na bandeja de ícones do windows, enquanto o aplicativo roda em segundo plano como mostrado abaixo:
+
 ![alt text][tela2]
+
 Para abrir a tela do App dê um `duplo-clique` no ícone, para fechar o sistema, clique com o `botão-direito` e selecione `Sair`.
 
 ---
