@@ -1,6 +1,3 @@
-[tela1]: http://www.poncio.xyz/Downloads/img1.png "Tela APP"
-[tela2]: http://www.poncio.xyz/Downloads/img2.png "Tray Icon"
-
 # TryNotify
 TrayNotify é um projeto alpha para um chat simples entre clientes Windows, baseado na arquitetura MQTT para transferência do chat sem registro de histórico. É possível configurar um Username e um Tópico default para se iniciar toda vez.
 Além disso o TrayNotify leva este nome pois roda em segundo plano com um ícone na bandeja sempre que precisar. Quanto a tela principal está fechada, notificações do próprio Sitema Operacional são utilizadas para informar o evento.
@@ -10,11 +7,12 @@ O TrayNotify não exije nenhuma instalação no sistema operacional, mas é reco
 
 # Requisitos
 É um requisito a instalação do Java na máquina dos usuários.
-Testes foram feitos no Java versão `1.8_261` disponível neste [link](http://www.poncio.xyz/Downloads/jdk-8u261-windows-x64.exe).
+Testes foram feitos no Java versão `1.8_261`.
 
 ---
-# 1. Download
-Baixe o arquivo através do [link](http://www.poncio.xyz/Downloads/TrayNotify.jar).
+# 1. Arquivo JAR
+Use este repositório para baixar e compilar o jar final da aplicação.
+
 # 2. Primeira execução/Configuração
 É recomendado que crie uma pasta em seus Documentos chamado `TrayNotify/`e cole o arquivo `.java` dentro desta.
 Para rodar a primeira vez seu chat, primeiro verifique se o arquivo está para rodar com o programa `Java(TM) Platform SE binary` - para realizar esta verificação clique com o botão direito do mouse no arquivo e escolha a opção 'Propriedades', o programa que irá executar está marcado como `Abre com:`. Caso contrário, altere para este tipo, pois isto garante a execução correta do aplicativo.
@@ -45,9 +43,6 @@ Ignore as linhas começando com o caractere "#", pois estas são comentários. A
 ² É necessário que os usuários estejam no mesmo tópico para que as mensagens cheguem uns aos outros.
 # 4. Utilizando o App
 Após configurar o arquivo, salve o mesmo e abra novamente com dois cliques o arquivo .java.
-Irá abrir uma tela como esta:
-
-![alt text][tela1]
 
 Os campos são explicados a seguir:
 1. Usuário - Nome de usuário que irá aparecer para você e outros usuários ao enviar uma mensagem, para alterar, mude o texto na caixa de texto e clique em "Alterar Usuário"
@@ -58,9 +53,7 @@ Os campos são explicados a seguir:
 
 ¹ Mensagens com usuário em Ciano, são suas mensagens, mensagens com usuário em Azul são mensagem de outros usuários, e mensagens em vermelho são informações do sistema.
 # 5. Icone na Bandeja
-Além da tela acima comentada, existe um ícone que ficará na bandeja de ícones do windows, enquanto o aplicativo roda em segundo plano como mostrado abaixo:
-
-![alt text][tela2]
+Além da tela acima comentada, existe um ícone que ficará na bandeja de ícones do windows, enquanto o aplicativo roda em segundo plano.
 
 Para abrir a tela do App dê um `duplo-clique` no ícone, para fechar o sistema, clique com o `botão-direito` e selecione `Sair`.
 
